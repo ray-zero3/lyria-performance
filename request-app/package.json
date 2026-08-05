@@ -1,0 +1,20 @@
+{
+  "name": "lyria-request",
+  "private": true,
+  "type": "module",
+  "description": "観客リクエスト受付ページ＋AIキーワード抽出バックエンド（Nuxt3/Nitro）",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "preview": "nuxi preview",
+    "postinstall": "nuxi prepare",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "serve": "node --env-file=.env .output/server/index.mjs",
+    "serve:build": "nuxi build && node --env-file=.env .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt": "^3.14.0",
+    "vitest": "^4.1.10"
+  }
+}

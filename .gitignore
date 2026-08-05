@@ -1,0 +1,15 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+# logs（tauri dev ログ等）
+*.log
+# 公開時の復元用の状態（元のマシン名とアクセスキー入り URL を持つ）
+.funnel-state*
+.lan-state*
